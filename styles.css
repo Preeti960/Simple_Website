@@ -1,0 +1,187 @@
+
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background: #09062a;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero {
+    padding: 30px;
+   
+    background: #a1daf1;
+    text-align: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+button {
+    justify-content: end;
+    margin: 40px;
+    display: inline-block;
+    background: #0e0523;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all ease 0.5s;
+}
+button:hover{
+    box-shadow: 10px 10px 15px rgb(92, 17, 17);
+}
+
+#about{
+    
+    background: #a2dfdd;
+    box-sizing: 400px;
+    min-height: 400px;
+    max-height: auto;
+}
+#main{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.image-text{
+    font-size: 30px;
+    
+    position: absolute;
+    top:25%;
+    color:cyan;
+    padding: 10px;
+}
+
+#services{
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(7, 7, 40);
+    justify-content: center;
+    background: #a2dfdd;
+    box-sizing: 200px;
+    min-height: auto;
+    max-height: 600px;
+} 
+.services-list{
+    font-size: 40px;
+
+}
+#heading{
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+#heading{
+    font-size: 30px;
+    text-decoration: solid;
+}
+
+#contact {
+    background: #a2dfdd;
+    box-sizing: 200px;
+    min-height: 400px;
+    max-height: 600px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+form {
+    text-align: left;
+    max-width: 400px;
+    margin: auto;
+}
+
+
+  @media only screen and (max-width: 400px) {
+    html { 
+        padding:0;
+        margin: 0;
+        font-size: 10px;
+    }
+    #about{
+        font-size: 20px;
+        overflow: hidden;
+    }
+    #services{
+        overflow: hidden;
+        font-size: 20px;
+    }
+    #contact{
+        overflow: hidden;
+        font-size: 20px;
+    }
+  }
+
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
